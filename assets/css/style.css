@@ -1,0 +1,51 @@
+@font-face{
+font-family: myFirstFont;
+src: url(../fonts/neo.otf);
+}
+
+@font-face{
+font-family: mysecfont;
+src:url(../fonts/ele.otf);
+}
+
+.nisa
+{
+	border : 1px solid #ccc;
+	text-align: center;	
+}
+
+.heading
+{
+	color: white; 		
+}
+.lay
+{
+	background-color: #696969;
+}
+.search-sec
+{
+	
+	height: 50px;
+	text-align: center;	
+	margin-top: 20px;
+}
+
+.thump
+{
+	margin: 10px;
+	padding: 5px;	
+	text-align: center;
+	
+}
+
+
+.team-img
+{
+	height: 50px;
+	width: 50px;
+}
+
+.phones
+{
+	list-style: none;
+}

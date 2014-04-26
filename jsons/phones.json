@@ -1,0 +1,71 @@
+[
+ {
+  "age": 1,
+  "id": "mi",
+  "name": "Mumbai Indians",
+  "imageUrl": "img/mi.jpeg"
+  
+  
+ },
+ 
+ 
+ {
+  "age": 2,
+  "id": "csk",
+  "name": "Chennai Super Kings",
+  "imageUrl": "img/dd.jpeg"
+  
+ },
+ 
+ 
+ {
+  "age": 3,
+  "id": "dd",
+  "name": "Delhi Daredevils",
+  "imageUrl": "img/dd.jpeg"
+ },
+ 
+ 
+ {
+  "age": 4,
+  "id": "sh",
+  "name": "Sunrisers hyderabad",
+  "imageUrl": "img/sh.jpeg"
+ },
+ 
+ 
+ {
+  "age": 5,
+  "id": "ki",
+  "name": "Kings XI Punjab",
+  "imageUrl": "img/ki.png"
+  },
+
+
+ {
+  "age": 6,
+  "id": "rcb",
+  "name": "Royal Challangers Bangalore",
+  "imageUrl": "img/rcb.jpeg"
+ },
+
+
+ {
+  "age": 7,
+  "id": "kkr",
+  "name": "Kolkatta Knight Riders",
+  "imageUrl": "img/kkr.jpeg"
+ },
+
+ {
+  "age": 8,
+  "id": "rr",
+  "name": "Rajasthan Royals",
+  "imageUrl": "img/rr.png"
+ }
+
+
+
+
+
+ ]

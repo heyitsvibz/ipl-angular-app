@@ -1,0 +1,111 @@
+@font-face{
+font-family: myFirstFont;
+src: url(../fonts/neo.otf);
+}
+
+@font-face{
+font-family: mysecfont;
+src:url(../fonts/ele.otf);
+}
+
+.infi
+{
+  float: left;
+  margin-top: 20px;
+}
+
+.logo
+{
+  float: right;
+  margin-top: 10px;
+}
+
+.banner
+{
+  margin: 1px auto;
+  height: 700px;
+  width: auto;
+
+}
+
+.txt
+{
+  text-align: center;
+  font-family: myFirstFont;
+  font-size: 23px;
+  line-height: 20px;
+  margin-top: -55px;
+}
+
+.f-name
+{
+  text-align: center;
+  font-family: myFirstFont;
+  font-size: 33px;
+  
+}
+
+.brand
+{ margin: 1px auto;
+  margin-top: 5px;
+  margin-bottom: 7.5px;
+}
+
+.bck
+{
+  background-color: #e0e7ec;
+}
+.mobile
+{
+  height: 250px;
+  margin: 1px auto;
+}
+
+.elem
+{
+text-align: center;
+font-family: mysecfont;
+}
+
+.elem-1
+{
+  margin: 1px auto;
+  margin-top: 12px;
+  height: 30px;
+}
+
+.km
+{
+  margin: 1px auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.km:hover
+{
+  opacity: 0.7;
+}
+
+
+ .price
+{
+  margin-left: 10%;
+}
+
+.power
+{
+  margin: 1px auto;
+  margin-bottom: 30px;
+}
+
+.strip
+{
+  margin: 1px auto;
+  width: 70%;
+  height: 40px;
+}
+
+.strip:hover
+{
+  opacity: 0.7;
+}

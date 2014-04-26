@@ -1,0 +1,48 @@
+<html lang="en" ng-app="phonecatApp">
+<head>
+  <script src="assets/js/angular.js"></script>
+  <script src="assets/js/controller.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/angular-route.js"></script>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body ng-controller="ListCtrl"  >
+<div class="container">
+<div class="row lay">
+
+          <div class="col-lg-6 col-md-6 ">
+          <div class="heading text-center">
+          <h2 >IPL Application</h2>
+          <sup>Cooked on Angular-js</sup>
+          </div>
+          </div>
+
+           <div class="col-lg-6 col-md-6 search-sec">
+                <input ng-model="query" placeholder="search IPL Team" >
+                Sort by:
+                <select ng-model="orderProp">
+                  <option value="name">Alphabetical</option>
+                  <option value="age">Newest</option>
+                </select>
+            </div>
+</div>
+ 
+  
+ 
+      <ul class="phones text-center">
+        <li class="thump"  ng-repeat="phone in phones | filter:query | orderBy:orderProp" >
+                  <div class="row">
+                    
+                      <a href="#/phones/{{phone.id}}" ><img ng-src="{{phone.imageUrl}}" class="team-img"></a>
+                    </div>
+                    
+                     {{phone.name}}      
+                    </div>
+                  </div>
+        </li>
+      </ul>
+
+</div> 
+</body>
+</html>
